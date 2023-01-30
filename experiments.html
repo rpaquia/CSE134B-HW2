@@ -77,6 +77,18 @@
         <input type="submit" value="Submit">
       </form>
     
-      <h3>Testing textarea tag</h3>
-      <textarea id="box" name="boxtext" rows = "5" cols="40">This box has text inside of it.</textarea>
+    <h3>Testing textarea tag</h3>
+    <textarea id="box" name="boxtext" rows = "5" cols="40">This box has text inside of it.</textarea>
+
+    <h3>Testing datalist tag</h3>
+    <form action="/action_page.php" method="get">
+        <label for="colors">Select a color from the list:</label>
+        <input list="colors" name="colors" id="colors">
+        <datalist id="colors">
+          <option value="Red">
+          <option value="Blue">
+        </datalist>
+        <input type="submit">
+    </form>
+         
 </body>
